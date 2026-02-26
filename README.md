@@ -22,6 +22,7 @@ graph TD
     A --> I[08-工业实践];
     A --> J[09-学术资源];
     A --> K[10-最新趋势-2026];
+    A --> L[11-框架深度调研];
 
     B --> B1[GANs];
     B --> B2[VAEs];
@@ -67,12 +68,17 @@ graph TD
     K --> K2[合成数据工厂];
     K --> K3[世界模型];
     K --> K4[端到端AI];
+
+    L --> L1[NVIDIA Cosmos];
+    L --> L2[Genesis物理引擎];
+    L --> L3[K2view平台];
 ```
 
 ## 快速导航
 
 - **[Researches](./researches/)**: 所有研究内容的根目录,包含详细的报告和笔记。
 - **[2026最新趋势](./researches/10-latest-trends-2026/)**: 截至2026年2月的最新研究成果、行业动态和技术突破。
+- **[框架深度调研](./researches/11-frameworks-deep-dive/)**: 对NVIDIA Cosmos、Genesis物理引擎和K2view平台的深度分析。
 
 ### 核心理论
 - **[生成对抗网络 (GANs)](./researches/01-theoretical-foundations/gans/)**: 博弈论基础、纳什均衡、训练稳定性。
